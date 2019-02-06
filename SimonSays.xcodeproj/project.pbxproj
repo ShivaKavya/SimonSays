@@ -12,6 +12,7 @@
 		FC76B8922204E85C0019B762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC76B8902204E85C0019B762 /* Main.storyboard */; };
 		FC76B8942204E85E0019B762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC76B8932204E85E0019B762 /* Assets.xcassets */; };
 		FC76B8972204E85E0019B762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC76B8952204E85E0019B762 /* LaunchScreen.storyboard */; };
+		FCF8A3A82207D503005A7021 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF8A3A72207D503005A7021 /* CircularButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FC76B8932204E85E0019B762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC76B8962204E85E0019B762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC76B8982204E85E0019B762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF8A3A72207D503005A7021 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FC76B8932204E85E0019B762 /* Assets.xcassets */,
 				FC76B8952204E85E0019B762 /* LaunchScreen.storyboard */,
 				FC76B8982204E85E0019B762 /* Info.plist */,
+				FCF8A3A72207D503005A7021 /* CircularButton.swift */,
 			);
 			path = SimonSays;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				FC76B88F2204E85C0019B762 /* ViewController.swift in Sources */,
 				FC76B88D2204E85C0019B762 /* AppDelegate.swift in Sources */,
+				FCF8A3A82207D503005A7021 /* CircularButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimonSays;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Simon-Says";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimonSays;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Simon-Says";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
